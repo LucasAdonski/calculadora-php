@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora PHP</title>
+</head>
+<body class="calculadora">
+    <h1>Calculadora PHP</h1>
+    <form action="calculadora.php" method="POST">
+        <label for="num1">Escolha o primeiro numero: </label><br>
+        <input type="number" name="num1">
+        <label for="num2">Escolha o segundo numero: </label><br>
+        <input type="number" name="num2">
+        <label for="operacao">Escolha a forma de equação:</label><br>
+            <button type="submit" name="operacao" value="soma">Soma</button>
+            <button type="submit" name="operacao" value="subtracao">Subtração</button>
+            <button type="submit" name="operacao" value="divisao">Divisão</button>
+            <button type="submit" name="operacao" value="multiplicacao">Multiplicação</button>
+            <button type="submit" name="operacao" value="exponenciacao">Exponenciação</button>
+            <button type="submit" name="operacao" value="raiz-quadrada">Raiz Quadrada</button>
+            <button type="submit" name="operacao" value="fatorial">Fatorial</button>
+    </form>
+</body>
+<footer>
+    <p>@ Lucas Gabriel Adonski @</p>
+</footer>
+</html>
